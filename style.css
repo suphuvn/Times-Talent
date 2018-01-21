@@ -1,0 +1,135 @@
+.navbar {
+  	font-family: 'Calibri'; 
+  	margin-bottom: 0;
+  	border-radius: 0;
+  	background-color: #FFFFFF;
+  	color: #9ACD32;
+  	padding: 1% 0 -0.1%;
+  	font-size: 1.2em;
+  	border: 0;
+  	position: fixed;
+  	display: block;
+  	width: 100%;
+  	z-index: 99999;
+  	transition: all ease .5s;
+  }
+
+  .navbar-toggle {
+    background-color: #9ACD32;
+  }
+
+  .navbar-toggle:hover {
+    background-color: #FFF;
+  }
+
+  }
+  .navbar-logo {
+  	float: left;
+  	min-height: 55px;
+  	padding: 0 15px 5px;
+  	transition: all ease .5s;
+  	vertical-align: middle;
+  }
+
+  .navbar-inverse .navbar-nav .active a .navbar-inverse .navbar-nav .active a:focus .navbar-inverse .navbar-nav .active a:hover {
+  	color: #9ACD32;
+  	background-color: #FFF;
+  }
+
+  .nav .navbar-nav .navbar-right ul:hover {
+    text-decoration-color: transparent;
+    color: black;
+  }
+
+  .navbar-inverse .navbar-nav li a {
+    margin-top: 20px;
+  	color: #9ACD32;
+  }
+
+  #icon {
+  	max-width: 200px;
+  	margin: 1% auto;
+  }
+
+  .container {
+    background-color: #9ACD32;
+    font-family: 'Helvetica';
+    color: #FFFFFF;
+    width: 100%;
+  }
+
+  .container-2 {
+    background-color: #9ACD32;
+    color: #FFFFFF;
+    font-family: 'Helvetica';
+    width: 100%;
+    text-align: center;
+  }
+
+  .container-3 {
+    text-align: center;
+    background-color: lightgrey; 
+  }
+
+  .parallax {
+  background: url("https://www.citypassguide.com/media/slideshow/the-huc-bridge.jpg") fixed 100%;
+  display: 100%;
+  opacity: 0.8%;
+}
+
+.parallax-inner {
+  padding-top: 20%;
+
+}
+
+  .container-text-center {
+    background-color: #9ACD32;
+    color: #FFFFFF;
+  }
+  footer {
+  	width: 100%;
+  	background-color: #FFFFFF;
+  	
+  	color: #9ACD32;
+  	font-family: 'Calibri';
+
+  }
+
+
+  .fa {
+  	padding: 15px;
+  	font-size: 25px;
+  	color: lightgrey;
+  }
+
+  .fa:hover {
+  	color: #9ACD32;
+  	text-decoration: none;
+  }
+
+  @media (max-width: 900px) {
+  	.fa {
+  		font-size: 20px;
+  		padding: 10px;
+  	}
+  }
+  @media (max-width: 600px) {
+  	.carousel-caption {
+      padding: auto;
+  		display: none;
+  	}
+  	#icon {
+  		max-width: 150px;
+  	}
+  	h2 {
+  		font-size: 1.7em;
+  	}
+    .content__container__list {
+      display: none;
+    }
+  
+  }
+
+  .item {
+    font-family: 'Calibri';
+  }
